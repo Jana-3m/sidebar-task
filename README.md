@@ -20,9 +20,9 @@ It features smooth animations and works across different screen sizes.
 # Project Structure
 
 sidebar-project/
-│── index.html 
-│── Task1.css 
-│── image.jpg 
+│__ index.html 
+│__ Task1.css 
+│__ image.jpg 
 
 ---
 
@@ -30,5 +30,6 @@ sidebar-project/
 - HTML5
 - CSS3
 - Font Awesome (for icons)
+
 
 

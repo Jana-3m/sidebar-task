@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidebar Layout</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel ="stylesheet" href="Task1.css">
+
+</head>
+<body>
+
+<section class="sidebar">
+    <div class="logo">
+        <img src="image.jpg" alt="Logo">
+    </div>
+    <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+    <a href="#"><i class="fa fa-user-plus"></i><span>Register</span></a>
+    <a href="#"><i class="fa fa-sign-in"></i><span>Login</span></a>
+    <a href="#"><i class="fa fa-file"></i><span>Files</span></a>
+    <a href="#"><i class="fa fa-cog"></i><span>Settings</span></a>
+    <a href="#"><i class="fa fa-question"></i><span>FAQ</span></a>
+    <a href="#"><i class="fa fa-info-circle"></i><span>About</span></a>
+    <a href="#"><i class="fa fa-sign-out-alt"></i><span>Logout</span></a>
+    <button class="toggle-btn" onclick="document.querySelector('.sidebar').classList.toggle('collapsed')">
+        <i class="fa fa-bars"></i>
+    </button>
+</section>
+
+<div class="main">
+    <h1>Task 1: Collapsible Sidebar</h1>
+
+    <p> Sidebar section is functional & can open and close using a button; it offers:</p>
+    <ul>
+        <li><i class="fa fa-check-circle"></i> A placeholder for a logo at the top</li>
+        <li><i class="fa fa-check-circle"></i> A list of 4–5 links with icons</li>
+        <li><i class="fa fa-check-circle"></i> A button to toggle the sidebar open or closed</li>
+        <li><i class="fa fa-check-circle"></i> Clean layout and smooth open/close animation.</li>
+        <li><i class="fa fa-check-circle"></i> Clean responsive layout on mobile screens.</li>
+
+    </ul>
+</div>
+
+</body>
+</html>
